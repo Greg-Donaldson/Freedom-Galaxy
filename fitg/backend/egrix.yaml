@@ -1,0 +1,16 @@
+import yaml
+
+egrix = """
+---
+Type: Star Game
+Title: Flight to Egrix
+Goal: Start Rebellion
+MaxTurns: 6
+VictoryPts: 12
+Stars: Egrix
+RebelCha: [Boccanegra, Doctor Sontag, Frun Sentel]
+ImperialCha: [Vans Ka-Tie-A, Jon Kidu]
+Planets: {Quibron : [1,Up,ImperialControl,Imperial,-1], Angoff : [2,Up,ImperialControl,Imperial,0], Charkhan : [0,Up,ImperialControl,Imperial,-2]}
+ImpUnits: {Line : [3,2], Patrol : [1,2], Patrol : [1,2], Patrol : [1,2], Militia = [1,0]
+CharPossessions: {Rebel : {Boccanegra : {SpaceShip : Planetary Privateer, Item : Cache of Rare Gems}, Frun Sentel : {Weapon : Helian Drug, Item : Scrambler, Item : High Energy Sniper's Rifle}}, Imperial : {SpaceShip, Spaceship}}
+"""
